@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Diagonal Images</title>
+<style>
+body {
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center;     /* Vertically center content */
+  min-height: 100vh;      /* Ensure body fills viewport height */
+  background-color: #f0f0f0; /* Optional background color */
+}
+
+.container {
+  position: relative;  /* Needed for absolute positioning of images */
+  width: 400px;         /* Example container width */
+  height: 300px;        /* Example container height */
+}
+
+.image1, .image2 {
+  border: 2px solid black;  /* Add border to both images */
+  position: absolute;     /* Allows precise positioning */
+}
+
+
+.image1 {
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  bottom: 0;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img class="image1" src="./12.jfif" alt="Image 1">
+  <img class="image2" src="./21.jfif" alt="Image 2">
+</div>
+
+</body>
+</html>
+

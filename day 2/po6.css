@@ -1,0 +1,54 @@
+/* Text Color */
+.color {
+	color: blue;
+}
+
+/* Background Color */
+.background {
+	background-color: #f2f2f2;
+}
+
+/* Text Alignment */
+.alignment {
+	text-align: justify;
+}
+
+/* Text Direction */
+.direction {
+	direction: rtl;
+}
+
+/* Text Transformation */
+.transformation {
+	text-transform: uppercase;
+}
+
+/* Text Indentation */
+.indentation {
+	text-indent: 50px;
+}
+
+/* Letter Spacing */
+.letter-spacing {
+	letter-spacing: 2px;
+}
+
+/* Line Height */
+.line-height {
+	line-height: 1.5;
+}
+
+/* Word Spacing */
+.word-spacing {
+	word-spacing: 10px;
+}
+
+/* White Space */
+.white-space {
+	white-space: nowrap;
+}
+
+/* Text Shadow */
+.text-shadow {
+	text-shadow: 3px 6px 4px #9f0808;
+}

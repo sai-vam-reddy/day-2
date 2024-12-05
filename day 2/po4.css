@@ -1,0 +1,19 @@
+/* ID Selector */
+#para1 {
+	color: blue;
+}
+
+/* Class Selector */
+.para2 {
+	color: red;
+}
+
+/* Tag Selector */
+p {
+	color: green;
+}
+
+/* Override tag selector for para2 class */
+.para2 {
+	color: red !important;
+}

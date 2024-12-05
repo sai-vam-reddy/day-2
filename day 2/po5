@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styling Example</title>
+	
+	<!-- Internal styling -->
+	<style>
+		p.internal {
+			color: blue;
+			font-size: 24px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Inline styling -->
+	<p style="color: red; font-size: 18px;">This paragraph uses inline styling.</p>
+	
+	<!-- Internal styling -->
+	<p class="internal">This paragraph uses internal styling.</p>
+</body>
+</html>

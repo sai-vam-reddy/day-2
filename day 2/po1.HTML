@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Categories</title>
+	<style>
+		.subcategory {
+			display: none;
+		}
+		
+		.button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Shopping Categories</h1>
+	
+	<button class="button" onclick="showElectronics()">Electronics</button>
+	<div class="subcategory" id="electronics">
+		<ul>
+			<li>Mobile Phones</li>
+			<li>Laptops</li>
+			<li>Cameras</li>
+		</ul>
+	</div>
+	
+	<button class="button" onclick="showFurniture()">Furniture</button>
+	<div class="subcategory" id="furniture">
+		<ul>
+			<li>Sofas</li>
+			<li>Beds</li>
+			<li>Dining Tables</li>
+		</ul>
+	</div>
+	
+	<button class="button" onclick="showClothing()">Clothing</button>
+	<div class="subcategory" id="clothing">
+		<ul>
+			<li>Men's Wear</li>
+			<li>Women's Wear</li>
+			<li>Kids Wear</li>
+		</ul>
+	</div>
+	
+	<script>
+		function showElectronics() {
+			var electronics = document.getElementById("electronics");
+			if (electronics.style.display === "block") {
+				electronics.style.display = "none";
+			} else {
+				electronics.style.display = "block";
+			}
+		}
+		
+		function showFurniture() {
+			var furniture = document.getElementById("furniture");
+			if (furniture.style.display === "block") {
+				furniture.style.display = "none";
+			} else {
+				furniture.style.display = "block";
+			}
+		}
+		
+		function showClothing() {
+			var clothing = document.getElementById("clothing");
+			if (clothing.style.display === "block") {
+				clothing.style.display = "none";
+			} else {
+				clothing.style.display = "block";
+			}
+		}
+	</script>
+</body>
+</html>
